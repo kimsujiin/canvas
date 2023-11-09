@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+  text-align: center;
+}
+
+section{
+  display: inline-block;
+  margin: 20px;
+}
+
+canvas{
+  box-shadow: 0 0 10px #ccc;
+  background: url(../img/grid.gif);
+}
+
+img{
+  display: none;
+}
+
+#rip{
+  display: block;
+  height: 80vh;
+  background: url(../img/puddle-1853607_1920.jpg)no-repeat center/cover;
+  color: #fff;
+  letter-spacing: 1em;
+  line-height: 80vh;
+  font-size: 3vw;
+  text-transform: uppercase;
+  text-shadow: 0 0  10px #000;
+  text-indent: 1em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    #canvas{
+    overflow: hidden;
+    }
+    p{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: #fff;
+      font-size: 10vw;
+      font-family: 'Farsan', cursive;
+    }
+  </style>
+  <title>3D Lines</title>
+</head>
+<body>
+  <div id="canvas" class="gradient">
+    <p>3D Lines</p>
+  </div>
+  <script src="js/three.min.js"></script>
+  <script src="js/projector.js"></script>
+  <script src="js/canvas-renderer.js"></script>
+  <script src="js/3d-lines-animation.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/color.js"></script>
+</body>
+</html>
