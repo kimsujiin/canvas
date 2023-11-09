@@ -1,5 +1,0 @@
-그리드
-칸 하나당 50
-
-컬러조합사이트
-https://color.adobe.com/ko/
